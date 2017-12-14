@@ -20,8 +20,7 @@ module Players
         move = "6"
       elsif !board.taken?(8)
         move = "8"
+      end    
     end
-          
-  end
 
 end

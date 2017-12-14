@@ -26,7 +26,7 @@ class TicTacToe
   def play_again?
     puts "Thanks for playing! Would you like to play again? y/n"
     input = gets.chomp
-    if input = "y"
+    if input == "y"
       start
     else
       exit
